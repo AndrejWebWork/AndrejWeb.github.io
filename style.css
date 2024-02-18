@@ -2,6 +2,24 @@ html{
     scroll-behavior: smooth;
     margin: 0%;
 }
+@media only screen and (max-width: 100%){
+   body {
+       font-size: 12px;
+       width: 100%;
+       margin: 0;
+   }
+   img{
+      max-width:300px;
+      max-height:200px;
+   }
+   
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-size: cover;
+}
 .menu1{
     display: flex;
     border: 3px solid teal;
